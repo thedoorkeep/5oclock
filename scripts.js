@@ -44,14 +44,14 @@ var drink = [
   'Gin & Tonic',
   'Weihenstephan Pilsner',
   'Sima',
-  'Artsakh Mulberry Vodka',
+  'Mulberry Vodka',
   'Shampanski Sparkling Wine',
-  'Ara',
+  'Hot Ara',
   'MeKhong Whiskey',
   'Jiuniang',
   'Sake',
   'Palm Wine',
-  'MARLBOROUGH SAUVIGNON BLANC'
+  'Marlborough Sauvignon Blanc'
 ];
 
 var image = [
