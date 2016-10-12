@@ -1,0 +1,100 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+
+body {
+  align-items: center;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif; /* smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide */
+  -webkit-font-smoothing: antialiased;
+  justify-content: center;
+  line-height: 1;
+  min-height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+h1 {
+  font-size: 80px;
+  margin: 2vh;
+}
+h2 {
+  font-size: 22px;
+  letter-spacing: .05em;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: .1em;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 140px;
+    margin: 5vh;
+  }
+
+  h2 {
+    font-size: 36px;
+    letter-spacing: .05em;
+  }
+
+  h3{
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: .1em;
+  }
+}
+
+a {
+  color: magenta;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+body::before {
+  background: rgba(0,0,0,.2);
+  content: "";
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#container {
+  position: relative;
+}
+
+
+a:hover { text-decoration: underline; }
+
+button,
+input {
+  box-sizing: border-box;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+button { cursor: pointer; }
+input {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+input:focus {
+  border-color: magenta;
+  outline: none;
+}
+
+img,
+video { max-width: 100%; }
+
+:focus { outline-color: magenta; }
+
+#test { visibility: hidden; }
